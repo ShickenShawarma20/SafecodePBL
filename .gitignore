@@ -1,0 +1,32 @@
+# Security: Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Python: Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+bin/
+lib/
+include/
+share/
+
+# Python: Cache & Compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+.mypy_cache/
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project Specific
+*.log
+node_modules/
